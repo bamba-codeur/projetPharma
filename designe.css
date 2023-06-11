@@ -1,0 +1,31 @@
+
+
+
+
+
+
+
+
+
+
+
+#carouselExampleIndicators{
+	width: 1001px;
+    margin-left: 125px;
+}
+
+
+#cart_count{
+	text-align: center;
+	padding: 0 0.9rem 0.1rem 0.9rem;
+	border-radius: 3rem;
+	color: white;
+	background: green;
+}
+.bg-dark {
+    background-color: #1e7e34!important;
+
+}
+#valeurPanier{
+	margin-top: 128px;
+}

@@ -1,0 +1,37 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Pharmacie BAMBA</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.php">ACCUEIL
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Boutique</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>   
+      </div>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="mr-auto"></div>
+        <div class="navbar-nav">
+          <a href="panier.php" class="nav-item nav-link active">
+            <h5 class="px-5 cart"><i class="fas fa-shopping-cart"></i>Panier
+              <?php
+                echo "<span id=\"cart_count\" class=\"text-success bg-light\">".htmlentities(montantGlobal())."Fcfa</span>";        
+                
+            ?>
+
+            </a>
+    </div>
+  </nav>
